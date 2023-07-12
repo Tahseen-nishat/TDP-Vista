@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+.header{
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    z-index:100;
+    padding: 0 20px 0 20px;
+    background-color: rgb(12, 12, 11);
+}
+.nav{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+.nav,.nav_items,.items{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.items{
+    column-gap: 35px;
+    font-size: 18px;
+}
+#tit{
+    font-size: 30px;
+}
+.button{
+    padding: 7px 25px;
+    background-color: rgb(11, 12, 13);
+    font-size: medium;
+}
+.button:hover{
+    cursor: pointer;
+    background-color:rgb(10, 11, 11);
+    font-size: larger;
+}
+#a1:hover{
+    cursor: pointer;
+    font-size: larger;
+}
+#a2:hover{
+    cursor: pointer;
+    font-size: larger;
+}
+#a3:hover{
+    cursor: pointer;
+    font-size: larger;
+}
+#a4:hover{
+    cursor: pointer;
+    font-size: larger;
+}
+.collec{
+    padding:-10px;
+}
+  .collect{
+      padding: 70px 80px;
+      background-color: black;
+  }
+  .collection_title{
+      background-color: black;
+      text-align: center;
+      font-size: 40px;
+  }
+  .collectionn{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+  }
+  .pic1,.pic2,.pic3,.pic4,.pic5,.pic6,.pic7,.pic8,.pic9,.pic10{
+      padding: 20px;
+  }
+  
+footer {
+    background-color: black;
+    overflow: hidden;
+    justify-content: center;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    text-decoration: none;
+    padding: 10px;
+    text-align: center; 
+    display: flex;
+    align-items: center;
+}
+#copy{
+    color: aliceblue;
+}
+.copyryt{
+    display: flex;
+    align-items: center;
+}
